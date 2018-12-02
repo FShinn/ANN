@@ -1,6 +1,6 @@
 # ANN
 
-A artificial nueral network (ANN) implementation.
+A artificial neural network (ANN) implementation.
 View [readme.txt](readme.txt) for details.
 
 ## About / Discussion
