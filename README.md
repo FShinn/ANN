@@ -15,6 +15,7 @@ Therefore, offering a discussion on topology, learning speed, etc. is almost a m
 this situation. Because the topology is user defined at the execution of the program. Even 
 without user input, the topology changes depending on the data file on which it operates. 
 Using the accompanying mushrooms.csv file, the default topology... 
+
  contains 3 layers, which contain 22, 11, and 1 node respectively. 
  In the first layer, each of the 22 nodes has 23 weights: 
   One for each of the inputs plus one for a bias value. 
@@ -24,6 +25,7 @@ Using the accompanying mushrooms.csv file, the default topology...
   (again) enough for the output of the previous layer's nodes plus one for a bias value. 
 This final layer outputs a value which will be compared against a desired value to determine 
 correctness. 
+
 The default learning speed is 0.1, a multiplier involved every time there is a weight update.
  However, this is also customizable. It does not change at runtime, however, which might be 
  something for me to consider adding in the future.
